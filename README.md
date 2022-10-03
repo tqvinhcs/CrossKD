@@ -16,29 +16,29 @@ Please note that the numbers are slightly different in the paper due to compress
 
 | Model | Distillation | Task | R@1 | R@5 | R@10 | R@50 | MdR | Links |
 | ----- | ------| ---- | --- | --- | ---- | ---- | --- | ----- |
-| CE+    | Caption  | t2v  | 14.5 | 37.7 | 50.6 | 78.5 | 10.0 |  [config](configs_crosskd/msrvtt-train-gpt2-xl-finetuned-mte-adam-cecap.json), [model](http:/www.robots.ox.ac.uk/~vgg/research/teachtext/data-hq/models/msrvtt-train-gpt2-xl-finetuned-adam/244af891/seed-0/2020-10-01_12-22-00/trained_model.pth) |
-| TeachText - CE+    | Caption  | t2v  | 14.8 | 38.1 | 51.1 | 79.1 | 10.0  | [config](configs_crosskd/msrvtt-train-gpt2-xl-finetuned-mte-adam-ttcap.json), [model](http:/www.robots.ox.ac.uk/~vgg/research/teachtext/data-hq/models/msrvtt-train-gpt2-xl-finetuned-mte-adam/6427fd41/seed-0/2020-09-30_20-34-12/trained_model.pth) |
+| CE+    | Caption  | t2v  | 14.5 | 37.7 | 50.6 | 78.5 | 10.0 |  [config](configs_crosskd/msrvtt-train-gpt2-xl-finetuned-mte-adam-cecap.json), [model](https://drive.google.com/file/d/1KOUPBLQlhqmtOGBSIjLIUXHfOAppj8Y5/) |
+| TeachText - CE+    | Caption  | t2v  | 14.8 | 38.1 | 51.1 | 79.1 | 10.0  | [config](configs_crosskd/msrvtt-train-gpt2-xl-finetuned-mte-adam-ttcap.json), [model](https://drive.google.com/file/d/14vjfwyZi9qYTJKMEwCv6z_tHm5eqD5ih/) |
 
 **MSVD**
 
 | Model | Distillation | Task | R@1 | R@5 | R@10 | R@50 | MdR | Links |
 | ----- | ------| ---- | --- | --- | ---- | ---- | --- | --- | 
-| CE+    | Caption  | t2v  | 25.9 | 58.3 | 72.7 | 93.3 | 4.0 | [config](configs_crosskd/msvd-train-gpt2-xl-finetuned-mte-adam-cecap.json), [model](http:/www.robots.ox.ac.uk/~vgg/research/teachtext/data-hq/models/msvd-train-gpt2-xl-finetuned-adam/db396303/seed-0/2020-10-01_13-17-33/trained_model.pth) |
-| TeachText - CE+    | Caption  | t2v  | 25.6 | 57.1 | 71.4 | 92.9 | 4.0 | [config](configs_crosskd/msvd-train-gpt2-xl-finetuned-mte-adam-ttcap.json), [model](http:/www.robots.ox.ac.uk/~vgg/research/teachtext/data-hq/models/msvd-train-gpt2-xl-finetuned-mte-adam/0af2a1ed/seed-0/2020-09-30_21-30-15/trained_model.pth) |
+| CE+    | Caption  | t2v  | 25.9 | 58.3 | 72.7 | 93.3 | 4.0 | [config](configs_crosskd/msvd-train-gpt2-xl-finetuned-mte-adam-cecap.json), [model](https://drive.google.com/file/d/1atl8S1d-yFjnt_M4gu602MZcqH5FEWqd/) |
+| TeachText - CE+    | Caption  | t2v  | 25.6 | 57.1 | 71.4 | 92.9 | 4.0 | [config](configs_crosskd/msvd-train-gpt2-xl-finetuned-mte-adam-ttcap.json), [model](https://drive.google.com/file/d/1D4btmyYIHW-AQLe3HBODBcAYkbBXMrEG/) |
 
 **DiDeMo**
 
 | Model | Distillation | Task | R@1 | R@5 | R@10 | R@50 | MdR | Links |
 | ----- | ------| ---- | --- | --- | ---- | ---- | --- | ----- |
-| CE+    | Caption  | t2v  | 19.5 | 44.6 | 59.0 | 83.0 | 7.0 | [config](configs_crosskd/didemo-train-gpt2-xl-finetuned-mte-adam-cecap.json), [model](http:/www.robots.ox.ac.uk/~vgg/research/teachtext/data-hq/models/didemo-train-gpt2-xl-finetuned-adam/616cf11b/seed-0/2020-10-01_13-31-57/trained_model.pth) |
-| TeachText - CE+    | Caption  | t2v  | 22.2 | 49.0 | 61.4 | 86.4 | 6.0 | [config](configs_crosskd/didemo-train-gpt2-xl-finetuned-mte-adam-ttcap.json), [model](http:/www.robots.ox.ac.uk/~vgg/research/teachtext/data-hq/models/didemo-train-gpt2-xl-finetuned-mte-adam/f004e587/seed-0/2020-09-30_20-19-13/trained_model.pth) |
+| CE+    | Caption  | t2v  | 19.5 | 44.6 | 59.0 | 83.0 | 7.0 | [config](configs_crosskd/didemo-train-gpt2-xl-finetuned-mte-adam-cecap.json), [model](https://drive.google.com/file/d/1PP3C_aHMeL0pkAISE5LKFcEqpFjFWFNF) |
+| TeachText - CE+    | Caption  | t2v  | 22.2 | 49.0 | 61.4 | 86.4 | 6.0 | [config](configs_crosskd/didemo-train-gpt2-xl-finetuned-mte-adam-ttcap.json), [model](https://drive.google.com/file/d/1d4Y3vWw7vcOXjAjvxAdj8s45fs_lidOO/) |
 
 **Activity-Net**
 
 | Model | Distillation | Task | R@1 | R@5 | R@10 | R@50 | MdR | Links |
 | ----- | ------| ---- | --- | --- | ---- | ---- | --- | ----- |
-| CE+    | Caption  | t2v  | 20.0 | 50.8 | 67.3 | 93.7 | 5.0 | [config](configs_crosskd/activity-net-train-gpt2-xl-finetuned-mte-adam-cecap.json), [model](http:/www.robots.ox.ac.uk/~vgg/research/teachtext/data-hq/models/activity-net-train-gpt2-xl-finetuned-adam/a791f27d/seed-0/2020-10-01_13-42-29/trained_model.pth) |
-| TeachText - CE+    | Caption  | t2v  | 23.8 | 56.9 | 73.2 | 96.2 | 4.0 | [config](configs_crosskd/activity-net-train-gpt2-xl-finetuned-mte-adam-ttcap.json), [model](http:/www.robots.ox.ac.uk/~vgg/research/teachtext/data-hq/models/activity-net-train-gpt2-xl-finetuned-mte-adam/87d04a50/seed-0/2020-10-01_08-48-36/trained_model.pth) |
+| CE+    | Caption  | t2v  | 20.0 | 50.8 | 67.3 | 93.7 | 5.0 | [config](configs_crosskd/activity-net-train-gpt2-xl-finetuned-mte-adam-cecap.json), [model](https://drive.google.com/file/d/1EbXPBhHPWBxluGbPZxss4LgKVL-EMaq-) |
+| TeachText - CE+    | Caption  | t2v  | 23.8 | 56.9 | 73.2 | 96.2 | 4.0 | [config](configs_crosskd/activity-net-train-gpt2-xl-finetuned-mte-adam-ttcap.json), [model](https://drive.google.com/file/d/1SbB6eEa341us17f7AGpMQpjw4K9Fbm42) |
 
 ### Data for training
 You can download the high quality features used for TeachText from:
